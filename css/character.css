@@ -1,0 +1,59 @@
+.kirito:hover{
+    content: url(../images/characters/pro/saolie.jpg);
+}
+.heathcliff:hover{
+    content: url(../images/characters/pro/再會了.jpg);
+}
+.chdisplay div{
+    background-color: gray;
+}
+.chdisplay{
+    width: 90%;
+}
+.character{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.character h3{
+    margin: 0;
+    background-color: blue;
+    color: aliceblue;
+}
+.profile{
+    width: 45%;
+    margin: 0 auto;
+}
+.profile:hover{
+    transform: scale(1.2);
+}
+.prodisplay{
+    width:10%;
+    margin: 0;
+}
+.divshow{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+}
+.divshow p{
+    font-size: large;
+    color: aliceblue;
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.divshow img{
+    width: 60%;
+}
+.chcombine{
+    display: flex;
+    justify-content: space-around;
+}
+.charbg{
+    background-color: #2f3030;
+    margin-top: 10px;
+}

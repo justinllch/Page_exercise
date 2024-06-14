@@ -1,0 +1,75 @@
+@media screen and (max-width:1100px){
+    .scroll-bound video {
+    width: 100%;
+    }
+    .anime{
+        width: 95%;
+    }
+}
+@media screen and (max-width:750px){
+    header{
+        display:block;
+        
+    }
+    header ul{
+        margin: 0 auto;
+    }
+    .enroll{
+        /* margin: 0 auto; */
+        margin-left: 47%;
+    }
+    header img{
+        margin-left: 38%;
+        /* margin-left: 45%;     */
+    }
+    .sectiondisc{
+        width: 95%;
+    }
+    .aincradview{
+        width: 95%;
+    }
+    
+}
+@media screen and (max-width:1000px){
+    .buylist{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .buysao{
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .bigbuyshow{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .character{
+        width: 95%;
+    }
+    .profile{
+        width: 100%;
+    }
+    .divshow{
+        flex-direction: column;
+
+    }
+    .divshow h1{
+        margin: 0 auto;
+    }
+    .divshow p{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+    .divshow img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:850px){
+    .register{
+        width: 90%;
+    }
+}
+body{
+    background-color:#2f3030;
+}

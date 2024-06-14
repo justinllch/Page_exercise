@@ -1,0 +1,50 @@
+.anime{
+    width: 80%;
+    background-color:gray;
+    margin: 0 auto;
+}
+.anime h2{
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: blue;
+}
+.anibg{
+    background-color: #2f3030;
+    margin-top: 10px;
+}
+.coverdisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.coverdisplay div{
+    margin: 0.5% 0 0 0.5%;
+    width: 222px;
+    height: 350px;
+    overflow: hidden;
+}
+.coverdisplay h4{
+    margin: 0 auto;
+    width: 222px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: lighter;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    line-height: 30px;
+}
+
+.cover{
+    width: 222px;
+    height: 320px;
+}
+.coverdisplay img{
+    width: 222px;
+    height: 320px;
+}
+.coverdisplay img:hover{
+    transform: scale(1.1);
+}
